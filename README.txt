@@ -1,14 +1,29 @@
-# Author:	Scott Forsberg
-# Contact:	contact.scottforsberg@gmail.com
-# Website:	https://github.com/pinebase/
 
-# Program Name:	Word Generator
+
+ __      ____ _ 
+ \ \ /\ / / _  |
+  \ V  V / (_| |
+   \_/\_/ \__, |
+           __/ |
+          |___/ 
+
+
+
+Word Generator
+
+
+
+https://github.com/pinebase/word-generator
+
+# Author:		Scott Forsberg
+# Contact:		contact.scottforsberg@gmail.com
+
 # Release Date: 2019-06-06
-# Version:		.6
+# Version:		.7
 
 
 
-Word Generator - (wg)
+Description
 
 	Generate words of various lengths and composition. Types include randomly generated words, and compound words made up of smaller terms.
 
