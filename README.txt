@@ -19,13 +19,14 @@ https://github.com/pinebase/word-generator
 # Contact:		contact.scottforsberg@gmail.com
 
 # Release Date: 2019-06-06
-# Version:		.7
+# Version:		.8
 
 
 
 Description
 
-	Generate words of various lengths and composition. Types include randomly generated words, and compound words made up of smaller terms.
+	Generate words of various lengths and composition.
+	Types include randomly generated words, and compound words made up of smaller terms.
 
 
 
