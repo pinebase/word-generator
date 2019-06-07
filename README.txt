@@ -15,11 +15,11 @@ Word Generator
 
 https://github.com/pinebase/word-generator
 
-# Author:		Scott Forsberg
-# Contact:		contact.scottforsberg@gmail.com
+# Author: Scott Forsberg
+# Contact: contact.scottforsberg@gmail.com
 
-# Release Date: 2019-06-06
-# Version:		.8
+# Release Date: 2019-06-07
+# Version: .9
 
 
 

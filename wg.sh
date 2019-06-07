@@ -6,8 +6,8 @@ program_name="word-generator"
 version=$(cat /var/lib/$program_name/current_version)
 
 
-# program options
-function options(){
+# program display funtions
+function display_options(){
 
 	options_text="
 
@@ -33,11 +33,39 @@ function options(){
 	exit
 }
 
+function display_liscence(){
+
+	display_text=$(cat /usr/lib/$program_name/$program_name-v$version/COPYING)
+	echo "$display_text"
+	exit
+}
+
+function display_history(){
+
+	display_history=$(cat /var/lib/$program_name/words-raw.txt)
+	echo "$display_history"
+	exit
+}
+
 
 # add --help feature
 if [ "$1" == '--help' ]
 then
-	options
+	display_options
+fi
+
+
+# gnu compliant show command output
+if [ "$1" == 'show' ]
+then
+	display_liscence
+fi
+
+
+# show the previosuly generated words
+if [ "$1" == 'history' ]
+then
+	display_history
 fi
 
 
@@ -49,8 +77,8 @@ do
 		w) words=$OPTARG;;
 		c) real_words='1';;
 		v) verbose='1';;
-		h) options;;
-		?) options;;
+		h) display_options;;
+		?) display_options;;
 	esac
 done	
 
