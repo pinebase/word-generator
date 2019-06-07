@@ -4,7 +4,7 @@
 
 # Program Name:	Word Generator
 # Release Date: 2019-06-06
-# Version:		.5
+# Version:		.6
 
 
 
@@ -42,22 +42,22 @@ Installation
 	
 		This will install the following files and folders:
 
-			# write protected library files, version specific
+			write protected library files, version specific
 				/usr/lib/word-generator-$version	
 
-			# storage for lists of generated words
+			storage for lists of generated words
 				/var/lib/word-generator
 
-			# man page for wg				
+			man page for wg				
 				/usr/local/share/man/man1/wg.1		
 
-			# word output log from generator
+			word output log from generator
 				/var/lib/word-generator/words-raw.txt	
 
-			# words for auto domain check feature input	
+			words for auto domain check feature input	
 				/var/lib/word-generator/words-to-check.txt	
 
-			# words for auto domain check feature output
+			words for auto domain check feature output
 				/var/lib/word-generator/words-checked.txt	
 
 
@@ -66,7 +66,7 @@ Options
 
 		Word Generator - (wg)
 
-			switch options
+			Switch Options
 
 			-c	compound word output from 3 and 4 letter random words
 
@@ -83,18 +83,18 @@ Options
 
 		Word Generator Domain Check - (wg-domain-check)
 
-			switch options
+			Switch Options
 
-			-a	check words found in words_to_check.txt
+			-a	Check words found in words_to_check.txt
 				this is the default setting
 				overrides individual word input check
 
-			-i 	input word
+			-i 	Input word
 				example: ./check.sh i test -v
 
-			-v 	enables verbose output
+			-v 	Enables verbose output
 
-			-? 	display options
+			-? 	Display options
 
 
 
