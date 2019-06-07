@@ -1,0 +1,122 @@
+# Author:	Scott Forsberg
+# Contact:	contact.scottforsberg@gmail.com
+# Website:	https://github.com/pinebase/
+
+# Program Name:	Word Generator
+# Release Date: 2019-06-06
+# Version:		.4
+
+
+
+Word Generator - (wg)
+
+	Generate words of various lengths and composition. Types include randomly generated words, and compound words made up of smaller terms.
+
+
+
+Prerequisites
+
+	Bash Shell
+
+	Operating Systems
+
+		Linux
+
+			Centos
+			Redhat
+			Fedora
+
+
+
+Installation
+
+		Download and unzip the program files, then change working directory to them:
+		
+			# cd word-generator
+
+
+		Next, run the installation script:
+
+			# ./install
+
+	
+		This will install the following files and folders:
+
+			/usr/lib/word-generator-$version	# write protected library files, version specific
+			/var/lib/word-generator				# storage for lists of generated words
+			/usr/local/share/man/man1/wg.1		# man page for wg
+
+
+			/var/lib/word-generator/words-raw.txt		# word output from generator logged here
+			/var/lib/word-generator/words-to-check.txt	# words for auto domain check feature input
+			/var/lib/word-generator/words-checked.txt	# words for auto domain check feature output
+
+
+
+Options
+
+		Word Generator - (wg)
+
+			switch options
+
+			-c	compound word output from 3 and 4 letter random words
+
+			-l 	set number of letters per word 5-7
+				default is 6
+
+			-v 	enables verbose output
+
+			-w 	set number of words to generate, default is 1
+
+			-? 	display options
+
+
+
+		Word Generator Domain Check - (wg-domain-check)
+
+			switch options
+
+			-a	check words found in words_to_check.txt
+				this is the default setting
+				overrides individual word input check
+
+			-i 	input word
+				example: ./check.sh i test -v
+
+			-v 	enables verbose output
+
+			-? 	display options
+
+
+
+Usage
+	
+	Generate a word with random letter in common letter patterns: (default)
+
+	# wg
+	vejibi
+	
+
+	Generate a word made up of smaller real words: (-r)  
+
+	# wg -r
+	nowyes
+
+
+License 
+
+	This program is licensed under the GPL License, view the LICENSE.md file for more information.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
