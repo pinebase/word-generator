@@ -4,7 +4,7 @@
 
 # Program Name:	Word Generator
 # Release Date: 2019-06-06
-# Version:		.4
+# Version:		.5
 
 
 
@@ -42,14 +42,23 @@ Installation
 	
 		This will install the following files and folders:
 
-			/usr/lib/word-generator-$version	# write protected library files, version specific
-			/var/lib/word-generator				# storage for lists of generated words
-			/usr/local/share/man/man1/wg.1		# man page for wg
+			# write protected library files, version specific
+				/usr/lib/word-generator-$version	
 
+			# storage for lists of generated words
+				/var/lib/word-generator
 
-			/var/lib/word-generator/words-raw.txt		# word output from generator logged here
-			/var/lib/word-generator/words-to-check.txt	# words for auto domain check feature input
-			/var/lib/word-generator/words-checked.txt	# words for auto domain check feature output
+			# man page for wg				
+				/usr/local/share/man/man1/wg.1		
+
+			# word output log from generator
+				/var/lib/word-generator/words-raw.txt	
+
+			# words for auto domain check feature input	
+				/var/lib/word-generator/words-to-check.txt	
+
+			# words for auto domain check feature output
+				/var/lib/word-generator/words-checked.txt	
 
 
 
